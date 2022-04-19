@@ -113,13 +113,15 @@ menu a.is-active,  .menu a:hover {
 
 .corpobox {
     display: flex;
-    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
     z-index: 1;
-    right: -420px;
-    bottom: -50px;
+    top: 142px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     
-    margin-left: 100px;
-    margin-right: 100px;
     width: 700px;
     height: 180px;
     padding: 10px;
