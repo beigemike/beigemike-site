@@ -184,10 +184,10 @@ menu a.is-active,  .menu a:hover {
 }
 
 .box1 {
-    border-radius: 8px;
+    border-radius: 20px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 12px;
+    padding: 15px;
     margin-right: 10px;
     width: 800px;
 }
@@ -213,41 +213,56 @@ menu a.is-active,  .menu a:hover {
     width: 500px;
 }
 
-.opzioni {
+/* pagina hosting */
+
+.hosting {
     display: flex;
     position: absolute;
-    margin-top: 340px;
+    margin-top: 240px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    margin-right: 10px;
+    font-size: 26px;
+    color: white;
+}
+
+.opzioni {
+    display: flex;
+    position: absolute;
+    margin-top: 410px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 .opzione1 {
     background-color: white;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 15px;
     margin-right: 10px;
+    width: 280px;
     border: solid #BCE3FF 4px;
 }
 
 .opzione2 {
     background-color: white;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 15px;
     margin-left: 10px;
+    width: 280px;
     border: solid #BCE3FF 4px;
 }
 
 .button {
-    display: flex;
     justify-content: center;
     padding-top: 10px;
 }
 
 .button2 {
-    display: flex;
     justify-content: center;
     padding-top: 10px;
 }
@@ -315,6 +330,8 @@ menu a.is-active,  .menu a:hover {
     -webkit-filter: saturate(0.2) opacity(0.5);
     cursor: not-allowed;
   }
+
+/* footer */
 
 .footer {
     position: fixed;
